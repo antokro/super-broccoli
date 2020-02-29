@@ -47,10 +47,18 @@
 
 @responsive {
   .bg-mobile {
-    background-image: url("../svg/Stage.svg");
+    background-image: url("../svg/StageMobile.svg");
   }
 
   .bg-desktop {
     background-image: url("../svg/StageDesktop.svg");
+  }
+
+  .bg-tablet {
+    background-image: url("../svg/StageTablet.svg");
+  }
+
+  .bg-sub {
+    background-image: url("../svg/StageSub.svg");
   }
 }

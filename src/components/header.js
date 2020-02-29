@@ -1,11 +1,18 @@
 // import { Link } from "gatsby"
-import PropTypes from "prop-types"
 import React from "react"
+import { Link } from "gatsby"
 
 const Header = () => (
   <header className="font-display py-6 px-12 text-base text-right absolute top-0 right-0 left-0">
-    <span className="p-2">About</span>
-    <span className="p-2">Notes</span>
+    <Link to="/" className="p-2">
+      Home
+    </Link>
+    <Link to="/about" className="p-2">
+      About
+    </Link>
+    <Link to="/notes" className="p-2">
+      Notes
+    </Link>
   </header>
 )
 

@@ -10,7 +10,9 @@ module.exports = {
       },
       spacing: {
         "stage-mobile": "480px",
-        "stage-desktop": "725px",
+        "stage-desktop": "730px",
+        "sub-stage-mobile": "350px",
+        "sub-stage-desktop": "600px",
       },
       minHeight: {
         "content-mobile": "350px",
