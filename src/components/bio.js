@@ -23,12 +23,6 @@ const Bio = () => {
           city: "Hamburg",
           duration: "2015-2017",
         },
-        {
-          position: "Coding Bootcamp",
-          company: "neue fische GmbH",
-          city: "Hamburg",
-          duration: "2019, 3 months",
-        },
       ],
     },
     education: {

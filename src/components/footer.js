@@ -6,7 +6,7 @@ import Xing from "../icons/Xing"
 import Pinterest from "../icons/Pinterest"
 
 const Footer = () => {
-  const link = "p-4 h-20 w-20"
+  const link = "p-4 h-16 w-16 md:h-20 md:w-16"
 
   return (
     <div className="mt-12 w-100 bg-sb-turquoise font-display">
@@ -36,7 +36,7 @@ const Footer = () => {
           <Pinterest />
         </a>
       </div>
-      <div className="text-center pb-6 md:pb-12 text-white">
+      <div className="text-center pb-6 md:pb-12 text-white text-xs md:text-base">
         ©️ 2020 with lots of 🧡 by Antonia -{" "}
         <Link to="/impressum">Impressum</Link>
       </div>

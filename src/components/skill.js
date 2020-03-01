@@ -7,7 +7,7 @@ const Skill = ({ headline, content }) => (
     <div className="h-32 w-100 flex justify-center items-center mb-6">
       <div className="rounded-full h-20 w-20 bg-yellow-400"></div>
     </div>
-    <div className="py-5">
+    <div className="py-5 text-center flex flex-wrap">
       {content.map(item => (
         <Chip key={item} content={item} />
       ))}
