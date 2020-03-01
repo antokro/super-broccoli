@@ -2,8 +2,8 @@ import React from "react"
 import Layout from "../components/layout"
 import Content from "../components/content"
 import SubStage from "../components/subStage"
-import Copy from "../components/Copy"
-import Bio from "../components/Bio"
+import Copy from "../components/copy"
+import Bio from "../components/bio"
 
 const About = () => (
   <>

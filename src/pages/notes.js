@@ -2,8 +2,8 @@ import React from "react"
 import Layout from "../components/layout"
 import Content from "../components/content"
 import SubStage from "../components/subStage"
-import List from "../components/List"
-import Copy from "../components/Copy"
+import List from "../components/list"
+import Copy from "../components/copy"
 
 const Notes = () => {
   const links = [
