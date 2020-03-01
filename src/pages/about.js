@@ -10,7 +10,7 @@ const About = () => (
     <Layout>
       <SubStage headline="About" />
       <Content>
-        <Copy>A little intro about myself</Copy>
+        <Copy>A little intro about myself.</Copy>
       </Content>
       <Content headline="Bio">
         <Bio />
