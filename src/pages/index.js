@@ -16,9 +16,15 @@ const IndexPage = () => (
       </Content>
       <Seperator />
       <Content headline="WHAT I CAN DO">
-        <Skill headline="LANGUAGES" content={["javascript", "typescript"]} />
-        <Skill headline="FRAMEWORKS" content={["react", "vue"]} />
-        <Skill headline="OTHER" content={["gatsby", "tailwind"]} />
+        <Skill
+          headline="LANGUAGES"
+          content={["javascript ES6", "typescript", "html5", "css3"]}
+        />
+        <Skill
+          headline="LIBRARIES"
+          content={["react", "vue", "gatsby", "tailwind", "sass"]}
+        />
+        <Skill headline="OTHER TECHNOLOGIES" content={["Node.js", "MongoBD"]} />
       </Content>
     </Layout>
   </>
