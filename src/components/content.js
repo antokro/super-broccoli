@@ -8,7 +8,7 @@ const Content = ({ headline, children }) => {
   ) : null
 
   return (
-    <section className="px-10 md:px-40 py-10">
+    <section className="px-10 py-10 md:px-0 w-100 md:w-1/2 md:mx-auto">
       {heading}
       {children}
     </section>
