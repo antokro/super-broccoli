@@ -79,7 +79,7 @@
   animation-name: tech;
   animation-duration: 20s;
   animation-iteration-count: infinite;
-  animation-timing-function: cubic-bezier(0.38, 0, 1, 0.57);
+  animation-timing-function: cubic-bezier(1, 0.45, 0, 0.93);
   position: absolute;
 }
 
