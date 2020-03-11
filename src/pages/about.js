@@ -12,7 +12,7 @@ const About = () => (
       <Content>
         <Copy>A little intro about myself.</Copy>
       </Content>
-      <Content headline="Bio">
+      <Content headline="BIO">
         <Bio />
       </Content>
     </Layout>

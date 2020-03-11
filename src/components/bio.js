@@ -6,6 +6,12 @@ const Bio = () => {
       label: "EXPERIENCE",
       items: [
         {
+          position: "Junior Developer",
+          company: "EDEKA Digital GmbH",
+          city: "Hamburg",
+          duration: "2019 - today",
+        },
+        {
           position: "Coding Bootcamp",
           company: "neue fische GmbH",
           city: "Hamburg",
@@ -50,22 +56,48 @@ const Bio = () => {
     },
   }
 
+  const Label = ({ label }) => (
+    <div className="text-2xl text-sb-orange mb-6 mt-12 font-display">
+      {label}
+    </div>
+  )
+
+  const Item = ({ position, company, city, duration }) => (
+    <div className="flex border-sb-dark-grey border-b-2 border-solid mb-3">
+      <div className="w-1/2 p-3">
+        <div className="text-2xl text-sb-yellow uppercase">{position}</div>
+        <div className="p-3 text-xl">{duration}</div>
+      </div>
+      <div className="w-1/2 p-3 text-xl">
+        {company}, {city}
+      </div>
+    </div>
+  )
+
   return (
     <div className="text-xl md:text-2xl my-3">
-      <div>{bioItems.experience.label}</div>
-      <div>
+      <Label label={bioItems.experience.label} />
+      <div className="flex flex-col my-3">
         {bioItems.experience.items.map(item => (
-          <div key={item.position}>
-            {item.position} {item.company} {item.city} {item.duration}
-          </div>
+          <Item
+            key={item.position}
+            position={item.position}
+            company={item.company}
+            city={item.city}
+            duration={item.duration}
+          />
         ))}
       </div>
-      <div>{bioItems.education.label}</div>
-      <div>
+      <Label label={bioItems.education.label} />
+      <div className="flex flex-col my-3">
         {bioItems.education.items.map(item => (
-          <div key={item.position}>
-            {item.position} {item.company} {item.city} {item.duration}
-          </div>
+          <Item
+            key={item.position}
+            position={item.position}
+            company={item.company}
+            city={item.city}
+            duration={item.duration}
+          />
         ))}
       </div>
     </div>

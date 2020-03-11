@@ -62,3 +62,43 @@
     background-image: url("../svg/StageSub.svg");
   }
 }
+
+@keyframes tech {
+  30% {
+    transform: translateY(0);
+  }
+
+  100% {
+    transform: translateY(-150%);
+  }
+}
+
+.tech-animation > span {
+  position: absolute;
+  transform: translateY(150%);
+  animation-name: tech;
+  animation-duration: 20s;
+  animation-iteration-count: infinite;
+  animation-timing-function: cubic-bezier(0.38, 0, 1, 0.57);
+  position: absolute;
+}
+
+.tech-animation {
+  overflow: hidden;
+}
+
+.tech-animation span:nth-child(2) {
+  animation-delay: 10s;
+}
+.tech-animation span:nth-child(3) {
+  animation-delay: 40s;
+}
+.tech-animation span:nth-child(4) {
+  animation-delay: 70s;
+}
+.tech-animation span:nth-child(5) {
+  animation-delay: 100s;
+}
+.tech-animation span:nth-child(6) {
+  animation-delay: 130s;
+}
