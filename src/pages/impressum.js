@@ -6,7 +6,7 @@ const Impressum = () => (
   <>
     <Layout>
       <Content headline="Impressum">
-        <div>Text für Impressum</div>
+        <div>Antonia Krohn - Hamburg</div>
       </Content>
     </Layout>
   </>
