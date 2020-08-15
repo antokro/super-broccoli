@@ -18,9 +18,7 @@ const Invitation = () => (
       <div className="text-lg pb-3 leading-tight">
         Bei gutem Wetter im Innenhof oder bei schlechtem Wetter drinnen.
       </div>
-      <div className="text-lg leading-tight">
-        Ich freue mich auf dich. Partner können gerne mitgebracht werden
-      </div>
+      <div className="text-lg leading-tight">Ich freue mich auf dich 💁</div>
     </div>
   </div>
 )
