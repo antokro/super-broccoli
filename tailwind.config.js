@@ -19,7 +19,7 @@ module.exports = {
         "content-desktop": "600px",
       },
       height: {
-        "mobile-invitation": "50%",
+        "mobile-invitation": "400px",
         "desktop-invitation": "30%",
       },
     },

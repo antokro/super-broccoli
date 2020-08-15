@@ -73,19 +73,15 @@
     background-image: url("../svg/StageSub.svg");
   }
   .bg-invitation-stage {
-    background-image: url("../images/IIvPeuiiTnY.png");
+    background-image: url("../images/mobile_breze.png");
   }
 
-  .bg-abstract {
-    background-image: url("../svg/abstract.svg");
+  .bg-beer {
+    background-image: url("../images/beer.png");
   }
 
   .bg-wave {
-    background-image: url("../svg/Vector.svg");
-  }
-
-  .bg-fruit {
-    background-image: url("../svg/fruits.svg");
+    background-image: url("../images/wave.png");
   }
 }
 
