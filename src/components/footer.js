@@ -17,6 +17,7 @@ const Footer = () => {
         <a
           href="https://www.linkedin.com/in/antonia-krohn-a404b3182/"
           target="_blank"
+          rel="noopener noreferrer"
           className={link}
         >
           <LinkedIn />
@@ -24,6 +25,7 @@ const Footer = () => {
         <a
           href="https://www.xing.com/profile/Antonia_Krohn/cv"
           target="_blank"
+          rel="noopener noreferrer"
           className={link}
         >
           <Xing />
@@ -31,6 +33,7 @@ const Footer = () => {
         <a
           href="https://www.pinterest.de/antoniakrohn/"
           target="_blank"
+          rel="noopener noreferrer"
           className={link}
         >
           <Pinterest />
