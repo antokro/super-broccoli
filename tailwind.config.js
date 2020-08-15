@@ -18,10 +18,15 @@ module.exports = {
         "content-mobile": "350px",
         "content-desktop": "600px",
       },
+      height: {
+        "mobile-invitation": "400px",
+        "desktop-invitation": "30%",
+      },
     },
     fontFamily: {
       display: ["Quicksand", "sans-serif"],
       body: ["Open Sans", "sans-serif"],
+      invitation: ["Comfortaa", "sans-serif"],
     },
   },
   variants: {},

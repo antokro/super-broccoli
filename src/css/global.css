@@ -25,6 +25,17 @@
       url("../fonts/open-sans-v17-latin-600.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
 }
 
+/* comfortaa-regular - latin */
+@font-face {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 400;
+  src: local(""),
+    url("../fonts/comfortaa-v29-latin-regular.woff2") format("woff2"),
+    /* Chrome 26+, Opera 23+, Firefox 39+ */
+      url("../fonts/comfortaa-v29-latin-regular.woff") format("woff"); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+}
+
 /* quicksand-regular - latin */
 @font-face {
   font-family: "Quicksand";
@@ -60,6 +71,17 @@
 
   .bg-sub {
     background-image: url("../svg/StageSub.svg");
+  }
+  .bg-invitation-stage {
+    background-image: url("../images/mobile_breze.png");
+  }
+
+  .bg-beer {
+    background-image: url("../images/beer.png");
+  }
+
+  .bg-wave {
+    background-image: url("../images/wave.png");
   }
 }
 
@@ -101,4 +123,9 @@
 }
 .tech-animation span:nth-child(6) {
   animation-delay: 130s;
+}
+
+.transform-abstract {
+  transform: scale(1.2) translateY(-70px);
+  overflow: hidden;
 }
